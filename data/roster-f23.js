@@ -215,7 +215,7 @@ export const roster = [
   {
     label: "Sydney Bruce",
     tagline: "Let's make it happen",
-    avatar: "default.svg",
+    avatar: "sydney.jpg",
     links: [
       {
         label: "github",
