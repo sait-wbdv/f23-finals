@@ -1,45 +1,75 @@
 <script setup>
 // import { roster } from '../data/roster-w22';
-import { round1 } from "../data/finals-w23.js";
-
+import { roundOne, roundTwo } from "../data/finals-f23.js";
 const rounds = [
   {
-    speakers: round1,
-    start: '11am',
-    container: 'round1'
-  }
+    speakers: roundOne,
+    start: "9am",
+    container: "round1",
+  },
+  {
+    speakers: roundTwo,
+    start: "10:30am",
+    container: "round2",
+  },
 ];
 </script>
 <template>
   <div class="page-wrapper">
     <header>
-      <img src="/images/sait-logo.png" alt="SAIT Logo">
+      <img src="/images/sait-logo.png" alt="SAIT Logo" />
       <div>
         <h1>SAIT Web Developer Fast Track</h1>
         <h2>Final Presentations - April 21, 2023</h2>
-      </div> 
+      </div>
     </header>
     <main>
       <h3>Introductions</h3>
       <ul class="overview">
-        <li><a href="https://www.linkedin.com/in/tony-grimes-778ba135/">Tony Grimes</a>: Lead Instructor</li>
-        <li><a href="https://www.linkedin.com/in/ashlyn-knox13/">Ashlyn Knox</a>: Co-Instructor</li>
-        <li><a href="https://www.linkedin.com/in/dasachadwick/">Dasa Chadwick</a>: Career and Consulting Instructor</li>
-        <li><a href="https://www.linkedin.com/in/autumn-heinze-48624a50/">Autumn Heinze</a>: Work Integrated Learning Coordinator</li>
-        <li><a href="https://www.linkedin.com/in/eringates28/">Erin Gates</a>: Academic Chair, School of Advanced Digital Technology</li>
+        <li>
+          <a href="https://www.linkedin.com/in/tony-grimes-778ba135/"
+            >Tony Grimes</a
+          >: Lead Instructor
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/ashlyn-knox13/">Ashlyn Knox</a>:
+          Co-Instructor
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/dasachadwick/">Dasa Chadwick</a>:
+          Career and Consulting Instructor
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/terry-o-ba343b1b5"
+            >Terry O'Dwyer</a
+          >: Work Integrated Learning Coordinator
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/amosngai">Amos Ngai</a>: Academic
+          Chair, School of Advanced Digital Technology
+        </li>
       </ul>
       <h3>Program Overview</h3>
       <ul class="overview">
         <li><em>Tools</em>: Git/GitHub, npm, VS Code, Postman</li>
-        <li><em>Development</em>: HTML/CSS/JS, Svelte/SvelteKit, Supabase (Postgres), CSS Tailwind</li>
-        <li><em>Deployment</em>: GitHub, Vercel</li>
-        <li><em>Design</em>: Figma, Photoshop/GIMP</li>
+        <li>
+          <em>Development</em>: HTML/CSS/JS, Svelte/SvelteKit, tailwindCSS,
+          Supabase (Postgres), and Directus (CMS)
+        </li>
+        <li><em>Deployment</em>: GitHub, Netlify</li>
+        <li><em>Design</em>: Figma, Figjam, GIMP</li>
       </ul>
-      
-      <Presentation v-for="(round, index) in rounds" :key="round.id" :round=round :index=index>
+
+      <Presentation
+        v-for="(round, index) in rounds"
+        :key="round.id"
+        :round="round"
+        :index="index"
+      >
         <slot></slot>
       </Presentation>
-      <h3 class="rounds">End of Presentations!</h3>
+      <h3 class="rounds">Thank you for joining us!</h3>
+      <p>Help yourself to pizza and refreshments</p>
     </main>
   </div>
   <!-- <RosterCard v-for="student in roster" :key="student.id" :student=student>
@@ -48,8 +78,7 @@ const rounds = [
 </template>
 
 <style>
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@300&display=swap");
 
 /* Comment out for live site */
 /* body {
@@ -70,22 +99,32 @@ h3.open {
 /* Font */
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
 }
-
 
 body {
   font-size: 20px;
   margin-bottom: 15rem;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
   line-height: 1;
   text-align: center;
@@ -133,7 +172,7 @@ ul {
 main {
   margin: auto;
   max-width: 62ch;
-  
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -189,7 +228,7 @@ figure {
   display: grid;
   grid-template-columns: 12em 1fr;
   grid-template-rows: 1fr;
-  
+
   align-items: center;
   justify-content: center;
 
@@ -204,11 +243,10 @@ figure {
   background-position: 52rem;
 }
 
-
 figure > img {
   grid-column: 1 / 2;
   grid-row: 1 / -1;
-  
+
   width: 8em;
   height: 8em;
   margin: auto;
@@ -216,7 +254,6 @@ figure > img {
 
   border-radius: 50%;
 }
-
 
 .badges img {
   width: 2.25rem;
@@ -237,7 +274,7 @@ figcaption header {
   line-height: 1.2;
   color: #666;
   width: max-content;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   text-align: center;
 }
 
@@ -247,7 +284,8 @@ figcaption p {
   line-height: 1.5;
 }
 
-.social ul, .badges ul {
+.social ul,
+.badges ul {
   display: flex;
   justify-content: center;
   margin: 1.25rem 0;
@@ -260,7 +298,6 @@ figcaption p {
 .social li {
   font-size: 2rem;
   margin: 0.15rem 0.75rem;
-
 }
 .social li a {
   color: navy;
@@ -279,6 +316,4 @@ figcaption p {
   margin-bottom: 0.75rem;
   margin: 0;
 }
-
-
 </style>
