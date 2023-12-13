@@ -9,12 +9,12 @@ export const roster = [
         link: "https://github.com/brendanm403",
       },
     ],
-    badges: [],
+    badges: [{ name: "" }],
   },
   {
     label: "Chad Cervantes",
     tagline: "Junior Web Developer student at SAIT",
-    avatar: "",
+    avatar: "default.svg",
     links: [
       {
         label: "github",
@@ -25,12 +25,12 @@ export const roster = [
         link: "https://www.linkedin.com/in/chadcervantes",
       },
     ],
-    badges: [],
+    badges: [{ name: "" }],
   },
   {
     label: "Edward Mah",
     tagline: "Frontend Developer focused on 3D interatctive sites",
-    avatar: "",
+    avatar: "default.svg",
     links: [
       {
         label: "github",
@@ -41,7 +41,7 @@ export const roster = [
         link: "https://www.linkedin.com/in/edward-mah-7a67b2239",
       },
     ],
-    badges: [],
+    badges: [{ name: "" }],
   },
   {
     label: "Cal Holt",
@@ -57,11 +57,11 @@ export const roster = [
         link: "mailto:calumholt@hotmail.com",
       },
     ],
-    badges: [],
+    badges: [{ name: "" }],
   },
   {
     label: "Jessica Nelson",
-    tagline: "",
+    tagline: "Web Developer",
     avatar: "jessica.jpg",
     links: [
       {
@@ -73,12 +73,12 @@ export const roster = [
         link: "https://www.linkedin.com/in/jessicamnelson",
       },
     ],
-    badges: [],
+    badges: [{ name: "" }],
   },
   {
     label: "Ashkie Esperanza",
     tagline: "Junior Indie Game Developer",
-    avatar: "",
+    avatar: "default.svg",
     links: [
       {
         label: "github",
@@ -97,7 +97,7 @@ export const roster = [
         link: "403-477-5657",
       },
     ],
-    badges: [],
+    badges: [{ name: "" }],
   },
   {
     label: "Reilly Wooldridge",
@@ -117,13 +117,13 @@ export const roster = [
         link: "https://reillysheapaston.myportfolio.com/",
       },
     ],
-    badges: [],
+    badges: [{ name: "" }],
   },
   {
     label: "Sterling Smith",
     tagline:
       "Junior Web Developer and abstract artist ready to slide from the ski industry into the tech world!",
-    avatar: "",
+    avatar: "default.svg",
     links: [
       {
         label: "github",
@@ -146,19 +146,19 @@ export const roster = [
         link: "https://www.tiktok.com/@sterlingartstudio",
       },
     ],
-    badges: [],
+    badges: [{ name: "" }],
   },
   {
     label: "Dorothy Ngyuen",
-    tagline: "",
-    avatar: "",
+    tagline: "UI/UX Designer and Developer",
+    avatar: "default.svg",
     links: [
       {
         label: "github",
         link: "",
       },
     ],
-    badges: [],
+    badges: [{ name: "" }],
   },
   {
     label: "Emily Seafoot",
@@ -170,7 +170,7 @@ export const roster = [
         link: "https://github.com/Emilypearl91",
       },
     ],
-    badges: [],
+    badges: [{ name: "" }],
   },
   {
     label: "Kevin Fula",
@@ -182,48 +182,48 @@ export const roster = [
         link: "https://github.com/Raptorshere",
       },
     ],
-    badges: [],
+    badges: [{ name: "" }],
   },
   {
     label: "Robbie Soriano",
     tagline: "",
-    avatar: "",
+    avatar: "default.svg",
     links: [
       {
         label: "github",
         link: "",
       },
     ],
-    badges: [],
+    badges: [{ name: "" }],
   },
   {
     label: "Akash Samra",
     tagline: "",
-    avatar: "",
+    avatar: "default.svg",
     links: [
       {
         label: "github",
         link: "",
       },
     ],
-    badges: [],
+    badges: [{ name: "" }],
   },
   {
     label: "Sydney Bruce",
     tagline: "Let's make it happen",
-    avatar: "",
+    avatar: "default.svg",
     links: [
       {
         label: "github",
         link: "https://github.com/sydneyYYC",
       },
     ],
-    badges: [],
+    badges: [{ name: "" }],
   },
   {
     label: "John Dagsa",
     tagline: "Web Developer",
-    avatar: "john.jpg",
+    avatar: "john.png",
     links: [
       {
         label: "github",
@@ -234,6 +234,6 @@ export const roster = [
         link: "https://github.com/jdvgsa",
       },
     ],
-    badges: [],
+    badges: [{ name: "" }],
   },
 ];

@@ -35,7 +35,7 @@ const roundTwo = [
     title: "Art Portfolio",
   },
   {
-    name: "Dorothy Nguyen",
+    name: "Dorothy Ngyuen",
     title: "Checkout",
   },
   {
