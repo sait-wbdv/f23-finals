@@ -119,7 +119,7 @@ export const roster = [
     label: "Sterling Smith",
     tagline:
       "Junior Web Developer and abstract artist ready to slide from the ski industry into the tech world!",
-    avatar: "default.svg",
+    avatar: "sterling.jpg",
     links: [
       {
         label: "github",
@@ -147,7 +147,7 @@ export const roster = [
   {
     label: "Dorothy Ngyuen",
     tagline: "UI/UX Designer and Developer",
-    avatar: "default.svg",
+    avatar: "dorothy.png",
     links: [
       {
         label: "github",
@@ -216,6 +216,10 @@ export const roster = [
       {
         label: "github",
         link: "https://github.com/sydneyYYC",
+      },
+      {
+        label: "linkedin",
+        link: "https://www.linkedin.com/in/sydney-bruceyyc/",
       },
     ],
     badges: [{ name: "" }],

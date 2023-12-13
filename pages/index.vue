@@ -14,6 +14,7 @@ const rounds = [
   },
 ];
 </script>
+
 <template>
   <div class="page-wrapper">
     <header>
