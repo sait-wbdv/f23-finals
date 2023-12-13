@@ -198,7 +198,7 @@ export const roster = [
   },
   {
     label: "Akash Samra",
-    tagline: "",
+    tagline: "Web Developer",
     avatar: "default.svg",
     links: [
       {

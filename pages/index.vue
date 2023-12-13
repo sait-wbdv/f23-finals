@@ -54,8 +54,8 @@ const rounds = [
         <li><em>Tools</em>: Git/GitHub, npm, VS Code, Postman</li>
         <li>
           <em>Development</em>: HTML/CSS/JS, Svelte/SvelteKit, tailwindCSS,
-          Supabase (Postgres), and Directus (CMS)
         </li>
+        <li><em>Data:</em>Supabase (Postgres), and Directus (CMS)</li>
         <li><em>Deployment</em>: GitHub, Netlify</li>
         <li><em>Design</em>: Figma, Figjam, GIMP</li>
       </ul>
@@ -235,8 +235,7 @@ figure {
   min-width: 50ch;
   min-height: 12em;
   padding: 1rem;
-
-  border: 1px solid #bbb;
+  box-shadow: 1px 2px 10px 1px gray;
   border-radius: 4rem;
   background-image: radial-gradient(skyblue 30%, white 30.1%);
   background-size: 100em 100em;

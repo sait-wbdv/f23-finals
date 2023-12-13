@@ -5,8 +5,8 @@ const props = defineProps({
     default() {
       return {
         avatar: "default.svg",
-        label: "default label",
-        tagline: "",
+        label: "Default Label",
+        tagline: "Web Developer",
       };
     },
   },
