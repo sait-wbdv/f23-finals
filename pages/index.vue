@@ -20,7 +20,7 @@ const rounds = [
       <img src="/images/sait-logo.png" alt="SAIT Logo" />
       <div>
         <h1>SAIT Web Developer Fast Track</h1>
-        <h2>Final Presentations - April 21, 2023</h2>
+        <h2>Final Presentations - December 13, 2023</h2>
       </div>
     </header>
     <main>
