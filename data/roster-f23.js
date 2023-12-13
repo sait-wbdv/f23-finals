@@ -13,7 +13,7 @@ export const roster = [
   },
   {
     label: "Chad Cervantes",
-    // tagline: "Junior Web Developer student at SAIT",
+    tagline: "Junior Web Developer student at SAIT",
     avatar: "chad.png",
     links: [
       {
@@ -207,7 +207,7 @@ export const roster = [
     links: [
       {
         label: "github",
-        link: "",
+        link: "https://github.com/fbgAK",
       },
     ],
     badges: [{ name: "" }],
