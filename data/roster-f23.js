@@ -92,10 +92,6 @@ export const roster = [
         label: "linkedin",
         link: "https://www.linkedin.com/in/ashkie-esperanza-77255926a/",
       },
-      {
-        label: "default",
-        link: "403-477-5657",
-      },
     ],
     badges: [{ name: "" }],
   },
