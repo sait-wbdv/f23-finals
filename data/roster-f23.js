@@ -199,7 +199,7 @@ export const roster = [
   {
     label: "Akash Samra",
     tagline: "Web Developer",
-    avatar: "default.svg",
+    avatar: "akash.png",
     links: [
       {
         label: "github",
