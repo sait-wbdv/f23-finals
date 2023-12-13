@@ -93,7 +93,7 @@ export const roster = [
         link: "https://www.linkedin.com/in/ashkie-esperanza-77255926a/",
       },
       {
-        label: "phone",
+        label: "default",
         link: "403-477-5657",
       },
     ],
@@ -113,7 +113,7 @@ export const roster = [
         link: "https://www.linkedin.com/in/reilly-shea-paston-4b6a22264/",
       },
       {
-        label: "portfolio",
+        label: "default",
         link: "https://reillysheapaston.myportfolio.com/",
       },
     ],
@@ -142,7 +142,7 @@ export const roster = [
         link: "https://www.instagram.com/sterlingsmithyyc",
       },
       {
-        label: "tiktok",
+        label: "default",
         link: "https://www.tiktok.com/@sterlingartstudio",
       },
     ],

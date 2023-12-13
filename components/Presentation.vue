@@ -23,12 +23,14 @@ const props = defineProps({
         <ul>
           <li v-if="!speaker.members">
             <RosterCard
-              :student="roster.find((item) => item.label === speaker.name)"
+              :student="
+                roster.find((item) => item.label === speaker.name ?? [])
+              "
             />
           </li>
           <li v-else v-for="student in speaker.members" :key="student.id">
             <RosterCard
-              :student="roster.find((item) => item.label === student)"
+              :student="roster.find((item) => item.label === student ?? [])"
             />
           </li>
         </ul>
