@@ -13,8 +13,8 @@ export const roster = [
   },
   {
     label: "Chad Cervantes",
-    tagline: "Junior Web Developer student at SAIT",
-    avatar: "default.svg",
+    // tagline: "Junior Web Developer student at SAIT",
+    avatar: "chad.png",
     links: [
       {
         label: "github",
@@ -30,7 +30,7 @@ export const roster = [
   {
     label: "Edward Mah",
     tagline: "Frontend Developer focused on 3D interatctive sites",
-    avatar: "default.svg",
+    avatar: "edward.png",
     links: [
       {
         label: "github",
@@ -78,7 +78,7 @@ export const roster = [
   {
     label: "Ashkie Esperanza",
     tagline: "Junior Indie Game Developer",
-    avatar: "default.svg",
+    avatar: "ashkie.jpg",
     links: [
       {
         label: "github",
@@ -155,7 +155,7 @@ export const roster = [
     links: [
       {
         label: "github",
-        link: "",
+        link: "https://github.com/AquaticFish",
       },
     ],
     badges: [{ name: "" }],
@@ -186,12 +186,16 @@ export const roster = [
   },
   {
     label: "Robbie Soriano",
-    tagline: "",
-    avatar: "default.svg",
+    tagline: "Ambitiously Lazy",
+    avatar: "robbie.jpg",
     links: [
       {
         label: "github",
-        link: "",
+        link: "https://github.com/Malekzie",
+      },
+      {
+        label: "linkedin",
+        link: "https://www.linkedin.com/in/robbie-soriano-01909422b/",
       },
     ],
     badges: [{ name: "" }],

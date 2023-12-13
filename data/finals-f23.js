@@ -17,7 +17,7 @@ const roundOne = [
   },
   {
     name: "Jessica Nelson",
-    title: "Out of this World Portfolio",
+    title: "Out of this World",
   },
   {
     name: "Ashkie Esperanza",
@@ -52,7 +52,8 @@ const roundTwo = [
   },
   {
     name: "Akash Samra",
-    title: "Portfolio Site",
+    title:
+      "Creation starts by making a mess - Web dev guide to crafting your digital portfolio.",
   },
   {
     name: "Sydney Bruce",
